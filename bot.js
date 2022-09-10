@@ -7,10 +7,10 @@ const { token , partner, link, idvc }  = require('./config.json');
 client.on('ready',async () => {  await console.log(client.user.tag);})
 client.on('ready', async () => {
  
- client.user.setActivity(`Free Ads Send Your Link Server`, { type:'WATCHING' })
+ client.user.setActivity(`Free reklam Send Your Link Server`, { type:'WATCHING' })
 });
 
-//ZEROCODES//https://discord.gg/RMEQSbMtEk//ZEROCODES//
+//DSCODES//https://discord.gg/qtkPbKeDSVDSCODES//
 ////////
 
 client.on("messageCreate", (message) => {
@@ -73,7 +73,7 @@ if (message.content === "اعلان") {
 }
 
 });
-//ZEROCODES//https://discord.gg/RMEQSbMtEk//ZEROCODES//
+//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
 //////////////
 client.on("messageCreate", async message => {
   if (message.channel.type === "dm") return;
@@ -83,11 +83,11 @@ client.on("messageCreate", async message => {
     message.member = await message.guild.fetchMember(message);
 
   if (message.content.match(new RegExp(`^<@!?${client.user.id}>`))) {
-    return message.channel.send(`**Dm Me For Ads**`);
+    return message.channel.send(`**Dm Me For Reklam**`);
   }
 });
 
-//ZEROCODES//https://discord.gg/RMEQSbMtEk//ZEROCODES//
+//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
 //////////////
 
 client.on('messageCreate',async (message) => {
@@ -121,7 +121,7 @@ client.on('messageCreate',async (message) => {
        return;
     }}
 })
-//ZEROCODES//https://discord.gg/RMEQSbMtEk//ZEROCODES//
+//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
 
 
 
@@ -146,6 +146,6 @@ console.log(err)
 });
 
 
-//https://discord.gg/RMEQSbMtEk//ZEROCODES//
+//https://discord.gg/qtkPbKeDSV//DSCODES//
 
 client.login(token)
