@@ -7,10 +7,10 @@ const { token , partner, link, idvc }  = require('./config.json');
 client.on('ready',async () => {  await console.log(client.user.tag);})
 client.on('ready', async () => {
  
- client.user.setActivity(`Free reklam Send Your Link Server`, { type:'WATCHING' })
+ client.user.setActivity(`Free Reklam Send Me Your Server`, { type:'PLAYING' })
 });
 
-//DSCODES//https://discord.gg/qtkPbKeDSVDSCODES//
+//DSCODES//https://discord.gg/aUT6yvJhAj//
 ////////
 
 client.on("messageCreate", (message) => {
@@ -73,7 +73,7 @@ if (message.content === "اعلان") {
 }
 
 });
-//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
+//DSCODES//https://discord.gg/aUT6yvJhAj//DSCODES//
 //////////////
 client.on("messageCreate", async message => {
   if (message.channel.type === "dm") return;
@@ -87,7 +87,7 @@ client.on("messageCreate", async message => {
   }
 });
 
-//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
+//DSCODES//https://discord.gg/aUT6yvJhAj//DSCODES//
 //////////////
 
 client.on('messageCreate',async (message) => {
@@ -121,7 +121,7 @@ client.on('messageCreate',async (message) => {
        return;
     }}
 })
-//DSCODES//https://discord.gg/qtkPbKeDSV//DSCODES//
+//DSCODES//https://discord.gg/aUT6yvJhAj//DSCODES//
 
 
 
